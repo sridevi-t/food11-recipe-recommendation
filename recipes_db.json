@@ -1,0 +1,386 @@
+{
+  "apple_pie": [
+    {
+      "name": "Classic Apple Pie",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 60,
+      "ingredients": ["apples", "all-purpose flour", "butter", "sugar", "cinnamon"],
+      "instructions": "Prepare the pie crust, fill it with sliced apples mixed with sugar and cinnamon, cover with the top crust, and bake until golden brown."
+    },
+    {
+      "name": "Cinnamon Apple Pie",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 55,
+      "ingredients": ["apples", "flour", "butter", "brown sugar", "cinnamon", "nutmeg"],
+      "instructions": "Mix sliced apples with brown sugar and spices. Place inside the pastry crust and bake until the apples are soft and the crust is golden."
+    },
+    {
+      "name": "Caramel Apple Pie",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 65,
+      "ingredients": ["apples", "pie crust", "caramel sauce", "sugar", "cinnamon"],
+      "instructions": "Fill the pie crust with seasoned apples, drizzle with caramel sauce, cover and bake until golden."
+    },
+    {
+      "name": "Apple Crumble Pie",
+      "cuisine": "British",
+      "vegetarian": true,
+      "prep_time_mins": 50,
+      "ingredients": ["apples", "flour", "oats", "butter", "brown sugar", "cinnamon"],
+      "instructions": "Place seasoned apples in a baking dish, cover with an oat crumble mixture, and bake until golden and bubbling."
+    }
+  ],
+
+  "cheesecake": [
+    {
+      "name": "Classic New York Cheesecake",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 90,
+      "ingredients": ["cream cheese", "biscuits", "butter", "sugar", "eggs", "vanilla"],
+      "instructions": "Prepare the biscuit base, mix the cheesecake filling, pour over the base and bake until set. Chill before serving."
+    },
+    {
+      "name": "Strawberry Cheesecake",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 80,
+      "ingredients": ["cream cheese", "biscuits", "butter", "sugar", "strawberries", "cream"],
+      "instructions": "Prepare a cheesecake base and filling, bake until set, cool completely and top with fresh strawberries."
+    },
+    {
+      "name": "Mango Cheesecake",
+      "cuisine": "Indian",
+      "vegetarian": true,
+      "prep_time_mins": 75,
+      "ingredients": ["cream cheese", "mango pulp", "biscuits", "butter", "sugar", "cream"],
+      "instructions": "Prepare the biscuit base, combine cream cheese with mango pulp, chill or bake until set and decorate with mango pieces."
+    },
+    {
+      "name": "Blueberry Cheesecake",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 80,
+      "ingredients": ["cream cheese", "biscuits", "butter", "sugar", "blueberries", "vanilla"],
+      "instructions": "Make the biscuit crust and cheesecake filling, bake until firm, chill and finish with blueberry topping."
+    }
+  ],
+
+  "chicken_curry": [
+    {
+      "name": "Indian Chicken Curry",
+      "cuisine": "Indian",
+      "vegetarian": false,
+      "prep_time_mins": 45,
+      "ingredients": ["chicken", "onion", "tomato", "ginger", "garlic", "turmeric", "garam masala"],
+      "instructions": "Cook onions with ginger and garlic, add spices and tomatoes, add chicken and simmer until fully cooked."
+    },
+    {
+      "name": "South Indian Chicken Curry",
+      "cuisine": "Indian",
+      "vegetarian": false,
+      "prep_time_mins": 50,
+      "ingredients": ["chicken", "onion", "coconut", "curry leaves", "chilli", "turmeric", "coriander"],
+      "instructions": "Prepare a spiced coconut gravy with curry leaves and spices. Add chicken and cook until tender."
+    },
+    {
+      "name": "Butter Chicken",
+      "cuisine": "Indian",
+      "vegetarian": false,
+      "prep_time_mins": 50,
+      "ingredients": ["chicken", "tomato", "butter", "cream", "garam masala", "ginger", "garlic"],
+      "instructions": "Cook chicken with spices, prepare a creamy tomato gravy and simmer the chicken in the sauce."
+    },
+    {
+      "name": "Thai Chicken Curry",
+      "cuisine": "Thai",
+      "vegetarian": false,
+      "prep_time_mins": 40,
+      "ingredients": ["chicken", "coconut milk", "red curry paste", "bell pepper", "basil", "onion"],
+      "instructions": "Cook curry paste with coconut milk, add chicken and vegetables, then simmer until the chicken is cooked."
+    }
+  ],
+
+  "french_fries": [
+    {
+      "name": "Classic French Fries",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["potatoes", "oil", "salt"],
+      "instructions": "Cut potatoes into strips, soak and dry them well, then fry until crispy and season with salt."
+    },
+    {
+      "name": "Garlic French Fries",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["potatoes", "oil", "garlic", "parsley", "salt"],
+      "instructions": "Fry potato strips until crispy and toss them with garlic, parsley and salt."
+    },
+    {
+      "name": "Peri Peri Fries",
+      "cuisine": "Indian",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["potatoes", "oil", "peri peri seasoning", "salt"],
+      "instructions": "Fry potato strips until golden and crispy, then coat with peri peri seasoning."
+    },
+    {
+      "name": "Cheese Fries",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 35,
+      "ingredients": ["potatoes", "oil", "cheddar cheese", "spring onion", "salt"],
+      "instructions": "Prepare crispy fries, top with melted cheese and garnish with spring onion."
+    }
+  ],
+
+  "fried_rice": [
+    {
+      "name": "Vegetable Fried Rice",
+      "cuisine": "Chinese",
+      "vegetarian": true,
+      "prep_time_mins": 25,
+      "ingredients": ["cooked rice", "carrot", "peas", "bell pepper", "soy sauce", "spring onion"],
+      "instructions": "Stir-fry vegetables, add cooked rice and soy sauce, then toss everything together over high heat."
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "cuisine": "Chinese",
+      "vegetarian": false,
+      "prep_time_mins": 30,
+      "ingredients": ["cooked rice", "chicken", "egg", "carrot", "soy sauce", "spring onion"],
+      "instructions": "Cook chicken and vegetables, add egg and rice, then stir-fry with soy sauce."
+    },
+    {
+      "name": "Egg Fried Rice",
+      "cuisine": "Chinese",
+      "vegetarian": true,
+      "prep_time_mins": 20,
+      "ingredients": ["cooked rice", "eggs", "spring onion", "soy sauce", "pepper"],
+      "instructions": "Scramble eggs, add cooked rice and seasonings, then stir-fry until well combined."
+    },
+    {
+      "name": "Schezwan Fried Rice",
+      "cuisine": "Indo-Chinese",
+      "vegetarian": true,
+      "prep_time_mins": 25,
+      "ingredients": ["cooked rice", "Schezwan sauce", "carrot", "cabbage", "bell pepper", "spring onion"],
+      "instructions": "Stir-fry vegetables, add rice and Schezwan sauce, then cook over high heat."
+    }
+  ],
+
+  "hamburger": [
+    {
+      "name": "Classic Beef Burger",
+      "cuisine": "American",
+      "vegetarian": false,
+      "prep_time_mins": 30,
+      "ingredients": ["beef patty", "burger bun", "lettuce", "tomato", "cheese", "onion"],
+      "instructions": "Grill the beef patty, toast the bun and assemble with lettuce, tomato, onion and cheese."
+    },
+    {
+      "name": "Chicken Burger",
+      "cuisine": "American",
+      "vegetarian": false,
+      "prep_time_mins": 30,
+      "ingredients": ["chicken patty", "burger bun", "lettuce", "tomato", "mayonnaise"],
+      "instructions": "Cook the chicken patty thoroughly, toast the bun and assemble with vegetables and sauce."
+    },
+    {
+      "name": "Veggie Burger",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 35,
+      "ingredients": ["vegetable patty", "burger bun", "lettuce", "tomato", "onion", "cheese"],
+      "instructions": "Cook the vegetable patty, toast the bun and assemble with fresh vegetables and cheese."
+    },
+    {
+      "name": "Cheese Burger",
+      "cuisine": "American",
+      "vegetarian": false,
+      "prep_time_mins": 30,
+      "ingredients": ["beef patty", "burger bun", "cheddar cheese", "lettuce", "tomato", "onion"],
+      "instructions": "Grill the patty, place cheese on top while hot, then assemble the burger with vegetables."
+    }
+  ],
+
+  "hot_dog": [
+    {
+      "name": "Classic Hot Dog",
+      "cuisine": "American",
+      "vegetarian": false,
+      "prep_time_mins": 15,
+      "ingredients": ["hot dog sausage", "hot dog bun", "mustard", "ketchup", "onion"],
+      "instructions": "Cook the sausage, place it in a toasted bun and add mustard, ketchup and onion."
+    },
+    {
+      "name": "Cheese Hot Dog",
+      "cuisine": "American",
+      "vegetarian": false,
+      "prep_time_mins": 20,
+      "ingredients": ["hot dog sausage", "bun", "cheddar cheese", "mustard", "onion"],
+      "instructions": "Cook the sausage, place it in the bun, add cheese and heat until melted."
+    },
+    {
+      "name": "Chili Hot Dog",
+      "cuisine": "American",
+      "vegetarian": false,
+      "prep_time_mins": 25,
+      "ingredients": ["hot dog sausage", "bun", "chili sauce", "onion", "cheese"],
+      "instructions": "Cook the sausage, place it in the bun and top with chili sauce, onion and cheese."
+    },
+    {
+      "name": "Vegetarian Hot Dog",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 20,
+      "ingredients": ["vegetarian sausage", "bun", "lettuce", "tomato", "mustard"],
+      "instructions": "Cook the vegetarian sausage and serve in a toasted bun with fresh vegetables and mustard."
+    }
+  ],
+
+  "ice_cream": [
+    {
+      "name": "Vanilla Ice Cream",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["milk", "cream", "sugar", "vanilla"],
+      "instructions": "Whisk milk, cream, sugar and vanilla, chill the mixture and churn until creamy."
+    },
+    {
+      "name": "Chocolate Ice Cream",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 35,
+      "ingredients": ["milk", "cream", "cocoa powder", "sugar", "chocolate"],
+      "instructions": "Combine milk, cream, cocoa and sugar, chill thoroughly and churn until smooth."
+    },
+    {
+      "name": "Mango Ice Cream",
+      "cuisine": "Indian",
+      "vegetarian": true,
+      "prep_time_mins": 25,
+      "ingredients": ["mango pulp", "cream", "condensed milk"],
+      "instructions": "Mix mango pulp with cream and condensed milk, freeze until firm and creamy."
+    },
+    {
+      "name": "Strawberry Ice Cream",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["strawberries", "cream", "milk", "sugar"],
+      "instructions": "Blend strawberries with the dairy ingredients, chill and churn or freeze until creamy."
+    }
+  ],
+
+  "omelette": [
+    {
+      "name": "Classic Omelette",
+      "cuisine": "French",
+      "vegetarian": true,
+      "prep_time_mins": 10,
+      "ingredients": ["eggs", "butter", "salt", "pepper"],
+      "instructions": "Beat the eggs with seasoning, cook in butter over medium heat and fold when almost set."
+    },
+    {
+      "name": "Masala Omelette",
+      "cuisine": "Indian",
+      "vegetarian": true,
+      "prep_time_mins": 15,
+      "ingredients": ["eggs", "onion", "tomato", "green chilli", "coriander", "salt"],
+      "instructions": "Beat eggs with chopped vegetables and spices, then cook on a hot pan until fully set."
+    },
+    {
+      "name": "Cheese Omelette",
+      "cuisine": "French",
+      "vegetarian": true,
+      "prep_time_mins": 12,
+      "ingredients": ["eggs", "cheese", "butter", "pepper", "salt"],
+      "instructions": "Cook beaten eggs in butter, add cheese and fold the omelette when the cheese begins to melt."
+    },
+    {
+      "name": "Vegetable Omelette",
+      "cuisine": "American",
+      "vegetarian": true,
+      "prep_time_mins": 15,
+      "ingredients": ["eggs", "bell pepper", "onion", "mushroom", "spinach", "cheese"],
+      "instructions": "Cook the vegetables, add beaten eggs and cheese, then fold once the omelette is cooked."
+    }
+  ],
+
+  "pizza": [
+    {
+      "name": "Margherita Pizza",
+      "cuisine": "Italian",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil", "olive oil"],
+      "instructions": "Spread tomato sauce over the dough, add mozzarella and basil, then bake until the crust is golden."
+    },
+    {
+      "name": "Vegetable Pizza",
+      "cuisine": "Italian",
+      "vegetarian": true,
+      "prep_time_mins": 35,
+      "ingredients": ["pizza dough", "tomato sauce", "bell pepper", "onion", "mushroom", "mozzarella"],
+      "instructions": "Top the dough with sauce, vegetables and cheese, then bake until the crust is crisp."
+    },
+    {
+      "name": "Chicken Pizza",
+      "cuisine": "Italian",
+      "vegetarian": false,
+      "prep_time_mins": 40,
+      "ingredients": ["pizza dough", "tomato sauce", "chicken", "mozzarella", "onion", "bell pepper"],
+      "instructions": "Add tomato sauce, cooked chicken, vegetables and cheese to the dough and bake until golden."
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "cuisine": "Italian",
+      "vegetarian": false,
+      "prep_time_mins": 35,
+      "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "pepperoni", "oregano"],
+      "instructions": "Spread sauce on the dough, add cheese and pepperoni, sprinkle oregano and bake until bubbly."
+    }
+  ],
+
+  "sushi": [
+    {
+      "name": "Vegetable Sushi Roll",
+      "cuisine": "Japanese",
+      "vegetarian": true,
+      "prep_time_mins": 30,
+      "ingredients": ["sushi rice", "nori", "cucumber", "carrot", "avocado"],
+      "instructions": "Spread sushi rice over nori, add vegetables, roll tightly and slice into pieces."
+    },
+    {
+      "name": "California Roll",
+      "cuisine": "Japanese",
+      "vegetarian": false,
+      "prep_time_mins": 35,
+      "ingredients": ["sushi rice", "nori", "crab", "avocado", "cucumber"],
+      "instructions": "Spread rice over nori, add crab, avocado and cucumber, roll firmly and cut into pieces."
+    },
+    {
+      "name": "Salmon Sushi",
+      "cuisine": "Japanese",
+      "vegetarian": false,
+      "prep_time_mins": 30,
+      "ingredients": ["sushi rice", "nori", "salmon", "cucumber", "soy sauce"],
+      "instructions": "Prepare seasoned sushi rice, place salmon and cucumber over nori, roll and slice carefully."
+    },
+    {
+      "name": "Avocado Sushi",
+      "cuisine": "Japanese",
+      "vegetarian": true,
+      "prep_time_mins": 25,
+      "ingredients": ["sushi rice", "nori", "avocado", "cucumber", "sesame seeds"],
+      "instructions": "Place sushi rice and sliced avocado on nori, add cucumber, roll tightly and garnish with sesame seeds."
+    }
+  ]
+}
